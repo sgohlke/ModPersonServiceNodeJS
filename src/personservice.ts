@@ -1,8 +1,8 @@
 export class Person {
   id: number
-  lastName: string = "UNKNOWN"
-  firstName: string = "UNKNOWN"
-  age: number = 999
+  lastName = "UNKNOWN"
+  firstName = "UNKNOWN"
+  age = 999
 
   constructor(id: number, lastName: string, firstName: string, age: number) {
     this.id = id
@@ -18,12 +18,12 @@ const personList = new Map([
     ["3", new Person(3, "Huber", "Franz", 56)],
 ])
 
-export class PersonService{
+export class PersonService {
   static getAllPersons(): Person[] {
     return Array.from(personList.values())
   }
 
-  static getPersonForId(id: string): Person {
+  static getPersonForId(id: string): Person | undefined {
     return personList.get(id)
   }
 }

@@ -15,7 +15,7 @@
         "unnecessary-else": [true, {"allow-else-if": true}],
         "only-arrow-functions": true,
         "indent": [true, "spaces", 4],
-        "typedef": [true, "call-signature", "parameter", "member-variable-declaration"]
+        "typedef": [true, "call-signature", "parameter"]
     },
     "rulesDirectory": []
 }

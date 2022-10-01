@@ -1,5 +1,4 @@
-import { Person } from './personservice'
-import { PersonService } from './personservice'
+import { Person, PersonService } from './personservice'
 
 test("Create a test Person object", () => {
   const person = new Person(1, 'McGulley', 'Mike', 43)

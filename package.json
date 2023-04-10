@@ -21,6 +21,6 @@
   "homepage": "https://github.com/sgohlke/ModPersonServiceNodeJS#readme",
   "devDependencies": {
     "@sgohlke/ts-base-dependencies": "1.0.7",
-    "eslint-plugin-deprecation": "1.4.0"
+    "eslint-plugin-deprecation": "1.4.1"
   }
 }
